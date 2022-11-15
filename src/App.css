@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  font-family:'Franklin Gothic Medium';
+  font-weight: 500;
+  margin-top: 80px;
+
+}
+
+.displaytodos {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.displaytodos .buttons {
+  margin-bottom: 2rem;
+}
+
+.displaytodos .buttons button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.displaytodos .buttons button:focus {
+  outline: none;
+  background-color: rgb(77, 190, 171);
+  color: white;
+}
+
+.displaytodos .buttons button:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.displaytodos ul {
+  list-style: none;
+  display: flex;
+  align-self:center
+}
+
+::placeholder{
+  color: rgb(197, 197, 197);
+  font-style: italic;
+}
+
+.input-todo{
+  margin-right: 10px;
+  height: 20px;
+  width: 250px;
+  border-color: rgb(222, 222, 222);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.5px;
+}
+
+.add-button {
+  background-color: rgb(71, 124, 204);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  width: 45px;
+}
+
+.add-button:active{
+  background-color: rgb(183, 212, 255);
+}
+
+/* .todos {
+  display: flex;
+  align-items: center;
+} */
+
+.card {
+  display: flex;
+  align-items: center;
+  
+  /* background: rgb(150, 152, 190); */
+
+  margin: 0 1rem 1rem 0;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: rgb(94, 95, 117);
+  border-style: solid;
+  padding: 1rem;
+
+}
+
+.card input {
+  margin: 3px;
+  border: none;
+  background-color: #e1ebfd;
+
+  color: #271c6c;
+  height: 25px;
+}
+.card input:disabled {
+  background-color: transparent;
+}
+.card input:focus {
+  background-color: transparent;
+  border: none;
+}
+
+.card .btns button {
+  
+  border: none;
+  margin: 0 0.2rem;
+  background-color: transparent;
+}
+
+.card .btns button:focus {
+  outline: none;
+}
+
+.card .cbx{
+  height: 25px;
+  width: 25px;
+  
+}
+
+
